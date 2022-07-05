@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    outline-color: black;
+    border: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button:hover{
+    transition: .5s;
+    color: white;
+    background-color: black;
+}
